@@ -56,4 +56,4 @@ export const getServerSideProps = authRedirect;
 
 export default Internal;
 
-export const runtime = "edge";
+export const runtime = "experimental-edge";
