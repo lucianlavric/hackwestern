@@ -28,4 +28,4 @@ const TestPasswordReset = () => {
 
 export default TestPasswordReset;
 export const getServerSideProps = authRedirect;
-export const runtime = "experimental-edge";
+export const runtime = "edge";
