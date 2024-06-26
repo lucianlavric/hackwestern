@@ -121,3 +121,5 @@ async function csvHandler(isMlh: boolean, res: NextApiResponse) {
 
   res.send(fileString);
 }
+
+export const runtime = "edge";

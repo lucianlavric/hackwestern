@@ -17,3 +17,5 @@ export default createNextApiHandler({
         }
       : undefined,
 });
+
+export const runtime = "edge";

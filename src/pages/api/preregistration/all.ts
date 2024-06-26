@@ -71,3 +71,5 @@ async function csvHandler(res: NextApiResponse) {
 
   res.send(fileString);
 }
+
+export const runtime = "edge";

@@ -55,3 +55,5 @@ function PreregistrationsButton() {
 export const getServerSideProps = authRedirect;
 
 export default Internal;
+
+export const runtime = "edge";
