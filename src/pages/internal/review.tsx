@@ -6,5 +6,3 @@ const Review = () => {
 
 export default Review;
 export const getServerSideProps = authRedirect;
-
-export const runtime = "edge";
