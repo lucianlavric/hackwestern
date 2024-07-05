@@ -8,7 +8,7 @@ export function Footer({ className }: FooterProps) {
   return (
     <footer
       className={cn(
-        "flex w-full flex-row-reverse items-center justify-between py-4 text-white md:px-4",
+        "flex w-full flex-row-reverse items-center justify-between px-2 py-4 text-white md:px-4",
         className,
       )}
     >

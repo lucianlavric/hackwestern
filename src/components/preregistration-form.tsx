@@ -40,7 +40,7 @@ export function PreregistrationForm({ className }: PreregistrationFormProps) {
   return (
     <div
       className={cn(
-        "flex w-full flex-col items-center justify-center px-12 text-primary",
+        "flex w-full flex-col items-center justify-center px-10 text-primary md:px-12",
         className,
       )}
     >
@@ -56,7 +56,7 @@ export function PreregistrationForm({ className }: PreregistrationFormProps) {
           style={{ width: "100%" }}
         />
       </a>
-      <h4 className="py-3 text-lg font-medium text-[#F6F2FD]">
+      <h4 className="text-md py-3 font-medium text-[#F6F2FD] md:text-lg">
         {isSuccess
           ? "Thanks! You'll hear from us soon 🛩️"
           : "Get notified when applications drop:"}

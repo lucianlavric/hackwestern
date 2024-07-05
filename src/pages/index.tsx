@@ -83,7 +83,7 @@ export default function Home() {
           {/* Text */}
           <div className="relative flex h-screen w-screen justify-center">
             <div className="flex flex-col items-center pt-32 text-white">
-              <h3 className="pb-4 text-xl font-medium">
+              <h3 className="text-md pb-2 font-medium md:pb-4 md:text-xl">
                 November 29 - December 1st, 2024
               </h3>
               <h1 className="bg-hw-hero-text-gradient bg-clip-text font-MagicRetro text-5xl leading-normal text-transparent mix-blend-screen md:text-5xl lg:text-8xl 2xl:text-8xl">
@@ -92,7 +92,7 @@ export default function Home() {
               <h2 className="-mt-3 font-sans text-xl font-light italic md:-mt-1 md:text-2xl lg:text-3xl 2xl:text-4xl">
                 where ideas take flight
               </h2>
-              <PreregistrationForm className="py-7" />
+              <PreregistrationForm className="w-screen py-7 md:w-full" />
             </div>
           </div>
         </div>
